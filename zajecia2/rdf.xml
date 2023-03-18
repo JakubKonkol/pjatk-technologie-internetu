@@ -1,0 +1,19 @@
+<rdf:RDF
+xmlns:rdf = "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:foaf = "http://xmlns.com/foaf/0.1/"
+xmlns:bio = "http://purl.org/vocab/bio/0.1/">
+
+<foaf:Person rdf:ID="jakubkonkol">
+    <foaf:name> Jakub Konkol </foaf:name>
+    <foaf:gender> Male </foaf:gender>
+    <foaf:givenname>Jakub</foaf:givenname>
+    <foaf:family_name>Konkol</foaf:family_name>
+    <bio:graduation>
+        <foaf:School rdf:ID="elektrykwejherowo">
+         <foaf:name>Elektryk Wejherowo</foaf:name>
+         <foaf:homepage rdf:resource="https://www.wejherowo-elektryk.pl/"/>
+         <foaf:date>2021</foaf:date>
+        </foaf:School>
+   </bio:graduation>
+   </foaf:Person>
+</rdf:RDF>
