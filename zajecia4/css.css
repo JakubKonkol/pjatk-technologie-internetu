@@ -1,0 +1,97 @@
+.content {
+    margin: 10px;
+    display: flex;
+    gap:10px;
+    background-color: lightgray;
+}
+@media screen and (max-width: 1000px){
+    .content{
+        flex-direction: column;
+    }
+    img{
+        scale: 0.9;
+    }
+}
+
+.left{
+    flex-basis: 50%;
+    margin:0.5rem;
+    background-color: white;
+    box-shadow: black 0 0 5px;
+}
+.right{
+    flex-basis: 50%;
+    margin:0.5rem;
+    background-color: white;
+    box-shadow: black 0 0 5px;
+}
+.left >*{
+    margin: 0.5rem;
+}
+.right >*{
+    margin:0.5rem;
+}
+.footer{
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+}
+.footer > *{
+    margin-inline: 1rem;
+}
+form{
+    background-color: lightgray;
+}
+nav ul li {
+    position: relative;
+    display: inline-block;
+}
+
+nav ul li:hover > ul {
+    display: block;
+    width: 10vw;
+}
+nav > ul> li > a{
+    margin-inline: 1rem;
+}
+nav ul ul {
+    position: absolute;
+    top: 100%;
+    display: none;
+    list-style: none;
+    margin: 0;
+    background-color: white;
+    border: 1px solid white;
+}
+
+nav ul ul li {
+    display: block;
+    width: 100%;
+}
+
+nav ul ul li a {
+    margin: 0;
+    display: block;
+    padding: 5px 5px;
+    color: #333;
+}
+
+nav ul ul ul {
+    position: absolute;
+    top: 0;
+    left: 100%;
+    border: none;
+}
+
+nav ul ul li:hover > ul {
+    display: block;
+}
+table {
+    border-collapse: collapse;
+}
+
+th, td {
+    border-bottom: 1px solid black;
+    text-align: center;
+}
+
