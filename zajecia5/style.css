@@ -1,5 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Francois+One&family=Roboto:wght@100&display=swap');
 body{
     margin: 1rem;
+}
+p{
+    font-family: 'Francois One', sans-serif;
 }
 /* HEADER  */
 .header{
