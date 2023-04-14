@@ -1,3 +1,3 @@
 # Technologie internetu 
 
-jakubkonkol.github.io/pjatk-technologie-internetu/
+<a href="jakubkonkol.github.io/pjatk-technologie-internetu/"> link do strony <a/>
