@@ -1,0 +1,42 @@
+@maxWidth: 100%;
+@bgDefault: pink;
+@bgDark: darker(@bgDefault, 20%);
+@bgLight: lighter(@bgDefault, 20%);
+@bgNav: url(images/bg_nav.png);
+@bgNavHover: url(images/bg_nav_h.png);
+body{
+    margin:0;
+}
+header{
+    background-color: @bgDefault;
+    display: flex;
+    height: 80px;
+}
+#container{
+    display: flex;
+    flex-direction: column;
+}
+#logo{
+    margin-inline: auto;
+    width: 500px;
+}
+nav{
+    background-image: @bgNav;
+}
+ul{
+    list-style-type: none;
+    display: flex;
+    float: left;
+    padding: 0;
+    margin: 0;
+    gap:10px;
+}
+a{
+    background-image: @bgNav;
+    color:white;
+    font-size: 18px;
+    text-decoration: none;
+}
+a:hover{
+    background-image: @bgNavHover;
+}
