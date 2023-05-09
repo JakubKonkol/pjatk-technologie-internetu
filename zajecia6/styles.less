@@ -1,6 +1,6 @@
 @maxWidth: 100%;
 @bgDefault: pink;
-@bgDark: darker(@bgDefault, 20%);
+@bgDark: darken(@bgDefault, 20%);
 @bgLight: lighter(@bgDefault, 20%);
 @bgNav: url(images/bg_nav.png);
 @bgNavHover: url(images/bg_nav_h.png);
@@ -39,4 +39,13 @@ a{
 }
 a:hover{
     background-image: @bgNavHover;
+}
+#left{
+    background-color: @bgLight;
+}
+#important{
+    background-color: @bgDark;
+}
+#main{
+    background-color: @bgDefault;
 }
