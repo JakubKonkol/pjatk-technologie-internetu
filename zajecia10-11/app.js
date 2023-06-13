@@ -1,4 +1,3 @@
-//methods for buttons 
 function btn1() {
     let newChild = document.createElement("div");
     newChild.classList.add("div");
