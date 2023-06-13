@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="app.js" type="text/javascript"></script>
+    <title>Kalkulator</title>
+</head>
+<body>
+    <div class="calc">
+        <div class="result">
+          <p class="result-view" id="result">0</p>
+        </div>
+        <div class="buttons">
+          <div class="input-field">
+            <p>pierwsza liczba:</p>
+            <input type="number" class="number-field" id="first">
+          </div>
+          <div class="input-field">
+            <p>druga liczba:</p>
+            <input type="number" class="number-field" id="second">
+          </div>
+          <div class="operation-field">
+            <p>Działanie:</p>
+            <select id="operation">
+              <option value="dodawanie">+</option>
+              <option value="odejmowanie">-</option>
+              <option value="mnozenie">*</option>
+              <option value="dzielenie">/</option>
+            </select>
+          </div>
+          <button onclick="calculate()">Oblicz</button>
+        </div>
+      </div>
+      
+</body>
+</html>
