@@ -1,4 +1,3 @@
-import { Auto } from "./Auto.js";
 //methods for buttons 
 function btn1() {
     let newChild = document.createElement("div");
@@ -54,11 +53,3 @@ function calculate() {
             throw new Error("Nieznana operacja");
     }
 }
-
-let cars = [
-    new Auto(2000, 100000, 10000),
-    new Auto(2001, 200000, 20000),
-    new Auto(2002, 300000, 30000),
-    new Auto(2003, 400000, 40000),
-    new Auto(2004, 500000, 50000)
-]
