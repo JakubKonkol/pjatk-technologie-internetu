@@ -1,0 +1,51 @@
+table {
+    width: 100%;
+    border-collapse: collapse;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    background-color: #f7f7f7;
+    border: 1px solid #ccc;
+  }
+
+  table thead {
+    background-color: #333;
+    color: #fff;
+  }
+
+  table th,
+  table td {
+    padding: 10px;
+    text-align: left;
+  }
+
+  table th {
+    text-transform: uppercase;
+    font-weight: bold;
+  }
+
+  table tbody tr:nth-child(odd) {
+    background-color: #ebebeb;
+  }
+
+  table tbody tr:hover {
+    background-color: #d2d2d2;
+  }
+  .news-section {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #f7f7f7;
+    border: 1px solid #ccc;
+  }
+
+  .news-section h3 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+
+  .news-section .rotator {
+    padding: 10px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    /* Dodaj tutaj dodatkowe style dla rotatora wiadomości */
+  }
